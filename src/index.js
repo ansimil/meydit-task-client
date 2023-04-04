@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './components/App';
+import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
+import { ProposalProviderWrapper } from './contexts/proposals';
+import { AuthProviderWrapper } from './contexts/auth';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <AuthProviderWrapper>
+        <ProposalProviderWrapper>
+          <App />
+        </ProposalProviderWrapper>
+      </AuthProviderWrapper>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
