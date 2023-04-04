@@ -1,0 +1,31 @@
+@use "../../sass-variables/variables";
+
+.home-component-container {
+    background-image: url('/src/assets/images/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-component__proposals-btn {
+    min-width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: variables.$navbarBtnFont;
+    font-weight: 600;
+    padding: 0.4rem 1rem;
+    border-radius: variables.$btnBorderRadius;
+    background-color: rgb(178, 69, 214, 0.7);
+    transition: 500ms
+}
+
+.home-component__proposals-btn:hover {
+    background-color: rgb(178, 69, 214);
+}

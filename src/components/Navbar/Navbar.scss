@@ -1,0 +1,50 @@
+@use "../../sass-variables/variables";
+
+.navbar-container {
+    min-height: variables.$navbarHeight;
+    // background-color: variables.$navbarBackgroundColor;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.main-icon {
+    margin-right: 15rem;
+}
+
+.main-icon img {
+    width: 70px;
+    height: 60px
+}
+
+.navbar-section a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: variables.$navbarBtnFont;
+}
+
+.navbar-btn {
+    min-width: 75px;
+    height: 50px;
+    padding: 0.2rem 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: variables.$btnBorderRadius;
+    transition: 500ms
+}
+
+.navbar-btn:hover {
+    background-color: rgb(253, 239, 222, 0.2);;
+}
