@@ -1,0 +1,25 @@
+@use "../../sass-variables/variables";
+
+.proposals-comp-container {
+    position: relative;
+    top: variables.$navbarHeight;
+    background-color: #8bb0ff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.add-proposal-btn {
+    color: black;
+    font-family: variables.$navbarBtnFont;
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+    background-color: variables.$primaryBtnBackgroundColor;
+    border-radius: variables.$btnBorderRadius;
+    transition: 500ms;  
+}
+
+.add-proposal-btn:hover {
+    background-color: variables.$primaryBtnBackgroundColorHover;
+}

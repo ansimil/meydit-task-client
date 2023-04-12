@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 import icon from '../../assets/images/white_logo.png'
 import './Navbar.css'
 
-const Navbar = () => {
+const Navbar = ({color}) => {
   return (
-    <div className="navbar-container">
+    <div className={`navbar-container ${color}`}>
         <div className="navbar-left-container navbar-section">
             <Link
             className="main-icon" 
