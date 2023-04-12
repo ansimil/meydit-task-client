@@ -22,10 +22,10 @@
     font-weight: 600;
     padding: 0.4rem 1rem;
     border-radius: variables.$btnBorderRadius;
-    background-color: rgb(178, 69, 214, 0.7);
+    background-color: variables.$primaryBtnBackgroundColor;
     transition: 500ms
 }
 
 .home-component__proposals-btn:hover {
-    background-color: rgb(178, 69, 214);
+    background-color: variables.$primaryBtnBackgroundColorHover;
 }

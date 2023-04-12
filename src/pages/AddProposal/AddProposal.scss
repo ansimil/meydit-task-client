@@ -1,0 +1,77 @@
+@use "../../sass-variables/variables";
+
+.add-proposal-form-container {
+    position: relative;
+    // top: variables.$navbarHeight;
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url('/src/assets/images/background.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.add-proposal-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 250, 245);
+    min-width: 35%;
+    border: black solid 0.5px;
+    border-radius: variables.$btnBorderRadius;
+    padding: 5rem 2rem
+}
+
+.add-proposal-form label {
+    font-weight: 600; 
+    font-family: variables.$navbarBtnFont;
+}
+
+.submit-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    height: 50px;
+    min-width: 200px;
+    font-family: variables.$navbarBtnFont;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background-color: variables.$primaryBtnBackgroundColor;
+    border-radius: variables.$btnBorderRadius;
+    transition: 500ms;
+    font-weight: 510;  
+}
+
+.submit-form-btn:hover {
+    background-color: variables.$primaryBtnBackgroundColorHover;
+}
+
+.text-input-field {
+    min-width: 50%;
+    min-height: 30px;
+    margin: 1rem 0;
+    background-color: rgb(255, 250, 245);
+    border: black solid 0.5px;
+    border-radius: variables.$btnBorderRadius;
+}
+
+.add-proposal-header {
+    width: 35%;
+    padding: 1rem 2rem;
+    margin: 0;
+    background-color: rgb(255, 250, 245);
+    text-align: center;
+    border-radius: variables.$btnBorderRadius;
+}
+
+.loading-icon {
+    width: 30px;
+    height: 30px;
+}

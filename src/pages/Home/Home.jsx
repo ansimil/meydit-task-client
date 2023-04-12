@@ -4,7 +4,7 @@ import HomeComp from "../../components/HomeComp/HomeComp"
 const Home = () => {
   return (
     <div className="home-container">
-    <Navbar />
+    <Navbar color={"navbar-transparent"} />
     <HomeComp />
     </div>
   )

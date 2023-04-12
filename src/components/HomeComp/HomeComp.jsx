@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom'
 const HomeComp = () => {
   return (
     <div className="home-component-container">
-    <Link 
+    <Link
+    to="/proposals" 
     className='home-component__proposals-btn'
     >
     Check out the proposals</Link>

@@ -1,0 +1,14 @@
+@use "../../sass-variables/variables";
+
+.btn {
+    text-decoration: none;
+    border: none;
+}
+
+.text-input-field {
+    font-family: variables.$navbarBtnFont
+}
+
+.success-message {
+    color: rgb(6, 171, 0);
+}
