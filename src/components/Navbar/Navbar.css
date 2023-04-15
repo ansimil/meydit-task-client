@@ -25,7 +25,7 @@
   height: 60px;
 }
 
-.navbar-section a {
+.navbar-section a, .navbar-section button {
   color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: 600;
@@ -33,6 +33,8 @@
 }
 
 .navbar-btn {
+  background-color: transparent;
+  font-size: 1rem;
   min-width: 75px;
   height: 50px;
   padding: 0.2rem 0.9rem;
@@ -52,7 +54,7 @@
   box-shadow: 0px 0px 20px black;
 }
 
-.navbar-white .navbar-section a {
+.navbar-white .navbar-section a, .navbar-white .navbar-section button {
   color: black;
 }
 

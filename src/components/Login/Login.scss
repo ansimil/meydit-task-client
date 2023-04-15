@@ -1,0 +1,19 @@
+.login-container {
+    flex: 1
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form input {
+    background-color: white;
+}
+
+.login-form button {
+    min-width: 50%;
+}
+
