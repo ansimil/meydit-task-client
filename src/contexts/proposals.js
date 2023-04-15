@@ -15,7 +15,7 @@ function ProposalProviderWrapper(props) {
     }
 
     useEffect(() => {
-        // getProposals()
+        getProposals()
     },[])
 
     return (

@@ -6,14 +6,21 @@
     background-color: #8bb0ff;
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.add-proposal-btn-container {
+    min-height: 10rem;
+    display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .add-proposal-btn {
     color: black;
     font-family: variables.$navbarBtnFont;
-    margin-top: 10rem;
     padding: 1rem 2rem;
     background-color: variables.$primaryBtnBackgroundColor;
     border-radius: variables.$btnBorderRadius;
@@ -22,4 +29,19 @@
 
 .add-proposal-btn:hover {
     background-color: variables.$primaryBtnBackgroundColorHover;
+}
+
+.proposal-cards-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem
+}
+
+.proposal-card-container {
+    border: solid black 0.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

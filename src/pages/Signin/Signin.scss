@@ -1,0 +1,11 @@
+@use "../../sass-variables/variables";
+
+.signin-inner {
+    position: relative;
+    top: variables.$navbarHeight;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10rem;
+
+}
